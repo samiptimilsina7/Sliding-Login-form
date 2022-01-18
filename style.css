@@ -66,11 +66,8 @@ button{
     transition: 1s cubic-bezier(.96,-0.01,.04,1) 0.4s;
 }
 
-.transition-to-right{
+.transition{
     transform: translateX(100%);
 }
 
-.transition-to-left{
-    transform: translateX(0%);
-}
 
