@@ -79,6 +79,9 @@ h2{
     transition: 1s ease-out 0.6s;
 }
 
+.form-box .signupform{
+    transform: translateX(200%);
+}
 
 .form-box h2,.form-box .input-sections,.form-box .button,.form-box p{
     width: 70%;
@@ -102,13 +105,19 @@ h2{
     font-weight: 200;
 }
 
-.transition{
+.form-box.transition{
     transform: translateX(100%);
 }
 
 .transition .signinform{
     transform: translateX(-150%);
     transition: 1s cubic-bezier(.96,-0.01,.04,1) 0.4s;
+}
+
+.transition .signupform{
+    transform: translateX(0%);
+    transition-timing-function: ease-out;
+    transition-delay: 0.6s;
 }
 
 body.color-change{
